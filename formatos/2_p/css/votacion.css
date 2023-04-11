@@ -1,0 +1,73 @@
+.container-fluid{
+  padding: 0px !important;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px !important;
+
+}
+
+h1{
+  font-family: 'Russo One', sans-serif;
+  color: black;
+}
+h4{
+  font-family: 'Russo One', sans-serif;
+  color: black;
+}
+h5{
+  height: 20px;
+}
+footer{
+  padding-bottom: 40px;
+}
+.typed{
+  margin-top: 120px;
+}
+.patrones {
+  width: 100%;
+  margin: 0px !important;
+  padding: 40px;
+}
+.nombres {
+  width: 100%;
+}
+#p1{
+  color: #2962ff;
+}
+#p2{
+  color: #d50000;
+}
+
+.player1, .player2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills{
+  padding: 20px;
+}
+.terminar{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#marca{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
+  color: red;
+}
+
+/* Publicidad 2 votacion*/
+.publicidad-2-vot{
+  width: 100%;
+  height: 200px;
+  background-image: url("../../../publicidad/publicidad-2-vot.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}

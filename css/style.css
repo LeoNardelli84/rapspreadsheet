@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(57, 57, 57);
+}
+.container-fluid{
+  padding: 0px !important;
+}
+nav {
+  background-color: rgb(57, 57, 57) !important;
+  padding: 0px !important;
+  width: 100%;
+}
+h1{
+  font-family: 'Permanent Marker', cursive;
+  color: red;
+  font-size: 40px;
+  width: 100%;
+}
+h2{
+    font-family: 'Russo One', sans-serif;
+  color: red;
+}
+h5{
+  color: white;
+  width: 100%;
+  height: 20px;
+}
+
+.presentacion{
+  padding-top: 180px;
+  padding-bottom: 40px;
+}
+
+.formatos{
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.formatos .titulo-formatos{
+  color: red;
+}
+.formato{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 80%;
+  background-color: rgb(198, 198, 198);
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 10px black;
+
+}
+h3{
+  margin: 0px !important;
+  font-family: 'Russo One', sans-serif;
+  color: black;
+}
+p{
+  margin: 0px !important;
+  color: white;
+  font-family: 'Play', sans-serif;
+}
+
+/* Publicidad Index */
+.publicidad-index-header{
+  width: 100%;
+  height: 200px;
+  background-image: url("../publicidad/publicidad-index-header.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 50px;
+}
+.publicidad-index-footer{
+  width: 100%;
+  height: 200px;
+  background-image: url("../publicidad/publicidad-index-footer.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 50px;
+}

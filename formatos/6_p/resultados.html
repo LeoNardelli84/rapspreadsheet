@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>rapspreadsheet</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="../../img/favicon.ico" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="../../css/mdb.min.css">
+    <!-- Ecommerce styles -->
+    <link rel="stylesheet" href="../../css/mdb.ecommerce.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/resultados.css">
+    <!-- Sweet alert-->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- Animated.js-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143820322-4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-143820322-4');
+    </script>
+    
+  </head>
+
+  <body class="row skin-light">
+    <!-- Start your project here-->
+    <div class="col d-none d-md-block"></div><!-- Publicidad izquierda-->
+    <div class="container-fluid col">
+
+      <div class="jugadores row">
+        <div class="col">
+          <h6 id="p1" class="text-center text-uppercase"></h6>
+        </div>
+        <div class="col">
+          <h6 id="p2" class="text-center text-uppercase"></h6>
+        </div>
+      </div>
+      <div class="resumen row">
+        <div class="p1_resumen col">
+          <p class="text-center" id="p1_resPatrones"></p>
+          <p class="text-center" id="p1_resTecnica"></p>
+          <p class="text-center" id="p1_resFlow"></p>
+          <p class="text-center" id="p1_resEscena"></p>
+          <p class="text-center" id="p1_resDobletempo"></p>
+
+        </div>
+        <div class="col">
+          <p class="text-center">Patrones</p>
+          <p class="text-center">Técnica</p>
+          <p class="text-center">Flow</p>
+          <p class="text-center">P. Escena</p>
+          <p class="text-center">Doble Tempo</p>
+        </div>
+
+        <div class="p2_resumen col">
+          <p class="text-center" id="p2_resPatrones"></p>
+          <p class="text-center" id="p2_resTecnica"></p>
+          <p class="text-center" id="p2_resFlow"></p>
+          <p class="text-center" id="p2_resEscena"></p>
+          <p class="text-center" id="p2_resDobletempo"></p>
+        </div>
+
+        <!-- Primer Grafico -->
+
+      </div> <!-- Fin resumen -->
+      <div class="totales row">
+        <div class="col">
+          <h5 class="text-center" id="p1_total"></h5>
+        </div>
+        <div class="col">
+          <h5 class="text-center">Final</h5>
+        </div>
+        <div class="col">
+          <h5 class="text-center" id="p2_total"></h5>
+        </div>
+      </div>
+      <div class="resultado">
+        <h1 id="resultado" class="text-center"></h1>
+      </div>
+      <canvas id="graficoRadar"></canvas>
+
+      <!-- Batallometro -->
+      <div class="batallometroAnimacion">
+        <h3 class="text-center">Batallómetro</h3>
+        <h6 class="h6-batallometro text-center text-light"></h6>
+        <div class="batallometro ">
+          <div class="progressBar text-right"></div>
+        </div>
+      </div>
+
+      <!-- Espacio Publicitario-->
+      <div class="publicidad-6-res">
+
+      </div>
+
+
+    <div class="volver text-center">
+
+      <button id="btn-nuevaBatalla" type="button" class="btn btn-outline-secondary btn-rounded waves-effect">Nueva Batalla</button>
+      <p class="text-white">Design by</p>
+      <a id="marca" href="https://www.instagram.com/rapspreadsheet/?hl=es-la">rapspreadsheet</a>
+      <br>
+    </div>
+
+    </div>
+    <div class="col d-none d-md-block"></div><!-- Publicidad derecha-->
+
+    <!-- End your project here-->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="../../js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="../../js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="../../js/mdb.min.js"></script>
+    <!-- MDB eCommerce -->
+    <script type="text/javascript" src="../../js/mdb.ecommerce.min.js"></script>
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <!-- Your custom scripts (optional) -->
+    <script type="text/javascript" src="js/resultados.js"></script>
+
+  </body>
+</html>
